@@ -12,7 +12,7 @@ export const MensagemItem = styled.li`
   line-height: 1.3;
   border: 1px solid black;
   
-  max-width: 20%;
+  /* max-width: 20%;
   min-width: 8%;
   margin-bottom: 1em;
   word-wrap: break-word;
@@ -20,7 +20,7 @@ export const MensagemItem = styled.li`
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0%;
-  -webkit-box-pack: end;
+  -webkit-box-pack: end; */
   
   
   
@@ -52,10 +52,10 @@ border: 2px solid black;
 border-radius: 10px;
 padding: 10px;
 margin: 16px;
-height: 100%;
+height: 100vh;
 display: flex;
 flex-direction: column;
-justify-content: space-between;
+justify-content: flex-end;
 
 `
 export const CampoMensagem = styled.div`
